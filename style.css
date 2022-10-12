@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    
+}
+
+.background-image{
+    background-image: url("bobby-gillespie-Kw3p9g8uLlk-unsplash.jpg");
+    background-size: 40vw 100vh;
+    background-repeat: no-repeat;
+
+    width: 40vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+   
+
+}
+
+.photo-credits{
+    text-align: center;
+}
+
+.logo{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo{
+    background-color: black;
+    
+    color: white;
+    opacity: 0.6;
+    margin-top: 15vh;
+}
+
+.logo > img{
+    width: 150px;
+}
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+
+.heading{
+    font-size: 20px;
+}
